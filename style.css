@@ -1,0 +1,102 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+article{
+  background: linear-gradient(to top left, rgb(196, 163, 169), rgb(221, 67, 11), rgb(173, 125, 133),rgb(143, 40, 57));
+}
+.h-one{
+  padding: 20px 70px;
+  font-size: 30px;
+}
+.texts{
+  background-color: rgb(202, 139, 151);
+  width: 150px;
+}
+.span-one{
+  margin-left: 80px;
+}
+.h-two{
+  font-size: 30px;
+  margin: auto;
+  color: white;
+  background-color: rgb(231, 107, 62); 
+  width: 165px;
+  border-radius: 20px;
+}
+.ul-one{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+.ul-two{
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+.uls{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+.imgs{
+  display: flex;
+  gap: 50px;
+  padding: 30px 50px;
+}
+.whatsapp{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-two{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media (max-width: 600px) {
+  .h-one{
+    padding: 20px 50px;
+  }
+  article{
+    overflow: hidden;
+  }
+  .imgs{
+    padding: 25px 10px;
+    gap: 10px;
+  }
+  .uls{
+    padding: 10px 40px;
+  }
+  .h-one{
+    font-size: 20px;
+    text-align: center;
+  }
+  .span-one{
+    margin: auto;
+  }
+  .ul-one{
+    margin-left: 20px;
+  }
+  .footer{
+    padding: 20px 0px;
+    font-size: 20px;
+    gap: 5px;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+}
